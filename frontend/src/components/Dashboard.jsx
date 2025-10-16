@@ -27,7 +27,8 @@ const Dashboard = ({ fileId, onAnalysisComplete, isUnlocked, onUnlock }) => {
     };
 
     startAnalysis();
-  }, [fileId, onAnalysisComplete]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [fileId]);
 
   if (loading) {
     return (
