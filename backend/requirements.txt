@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+PyPDF2
+Pillow
+pytesseract
+numpy
+scikit-learn
+tensorflow
+requests
